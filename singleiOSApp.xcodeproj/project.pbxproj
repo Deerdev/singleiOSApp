@@ -7,22 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD0442BA1D73BEB000D01BC6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0442B81D73BEB000D01BC6 /* SecondViewController.m */; };
+		DD0442BB1D73BEB000D01BC6 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD0442B91D73BEB000D01BC6 /* SecondViewController.xib */; };
+		DD0442BE1D74036B00D01BC6 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0442BD1D74036B00D01BC6 /* ThirdViewController.m */; };
 		DDB803DC1D6E8733000F2E4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB803DB1D6E8733000F2E4C /* main.m */; };
 		DDB803DF1D6E8733000F2E4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB803DE1D6E8733000F2E4C /* AppDelegate.m */; };
 		DDB803E21D6E8733000F2E4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB803E11D6E8733000F2E4C /* ViewController.m */; };
-		DDB803E51D6E8733000F2E4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB803E31D6E8733000F2E4C /* Main.storyboard */; };
 		DDB803E71D6E8733000F2E4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB803E61D6E8733000F2E4C /* Assets.xcassets */; };
 		DDB803EA1D6E8733000F2E4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB803E81D6E8733000F2E4C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD0442B71D73BEB000D01BC6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DD0442B81D73BEB000D01BC6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DD0442B91D73BEB000D01BC6 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		DD0442BC1D74036B00D01BC6 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		DD0442BD1D74036B00D01BC6 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		DDB803D71D6E8733000F2E4C /* singleiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = singleiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB803DB1D6E8733000F2E4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DDB803DD1D6E8733000F2E4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDB803DE1D6E8733000F2E4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DDB803E01D6E8733000F2E4C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DDB803E11D6E8733000F2E4C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DDB803E41D6E8733000F2E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDB803E61D6E8733000F2E4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDB803E91D6E8733000F2E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDB803EB1D6E8733000F2E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,6 +48,11 @@
 		DDB803CE1D6E8733000F2E4C = {
 			isa = PBXGroup;
 			children = (
+				DD0442BC1D74036B00D01BC6 /* ThirdViewController.h */,
+				DD0442BD1D74036B00D01BC6 /* ThirdViewController.m */,
+				DD0442B71D73BEB000D01BC6 /* SecondViewController.h */,
+				DD0442B81D73BEB000D01BC6 /* SecondViewController.m */,
+				DD0442B91D73BEB000D01BC6 /* SecondViewController.xib */,
 				DDB803D91D6E8733000F2E4C /* singleiOSApp */,
 				DDB803D81D6E8733000F2E4C /* Products */,
 			);
@@ -62,7 +73,6 @@
 				DDB803DE1D6E8733000F2E4C /* AppDelegate.m */,
 				DDB803E01D6E8733000F2E4C /* ViewController.h */,
 				DDB803E11D6E8733000F2E4C /* ViewController.m */,
-				DDB803E31D6E8733000F2E4C /* Main.storyboard */,
 				DDB803E61D6E8733000F2E4C /* Assets.xcassets */,
 				DDB803E81D6E8733000F2E4C /* LaunchScreen.storyboard */,
 				DDB803EB1D6E8733000F2E4C /* Info.plist */,
@@ -136,9 +146,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0442BB1D73BEB000D01BC6 /* SecondViewController.xib in Resources */,
 				DDB803EA1D6E8733000F2E4C /* LaunchScreen.storyboard in Resources */,
 				DDB803E71D6E8733000F2E4C /* Assets.xcassets in Resources */,
-				DDB803E51D6E8733000F2E4C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0442BA1D73BEB000D01BC6 /* SecondViewController.m in Sources */,
+				DD0442BE1D74036B00D01BC6 /* ThirdViewController.m in Sources */,
 				DDB803E21D6E8733000F2E4C /* ViewController.m in Sources */,
 				DDB803DF1D6E8733000F2E4C /* AppDelegate.m in Sources */,
 				DDB803DC1D6E8733000F2E4C /* main.m in Sources */,
@@ -158,14 +170,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DDB803E31D6E8733000F2E4C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDB803E41D6E8733000F2E4C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DDB803E81D6E8733000F2E4C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -300,6 +304,7 @@
 				DDB803F01D6E8733000F2E4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
