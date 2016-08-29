@@ -2,11 +2,11 @@
 共制作三个页面：Page1 Page2 Page3
 
 ### Page1
-- Page1使用纯代码实现表格显示和相左滑动删除
+- Page1使用纯代码实现表格显示和向左滑动删除
 - 对应类为ViewController
 
 ### Page2
-- Page2使用xib实现表格显示和相左滑动删除
+- Page2使用xib实现表格显示和向左滑动删除
 - 对应类为SecondViewController
 
 ### Page3
