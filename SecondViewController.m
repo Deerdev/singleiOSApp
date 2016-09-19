@@ -10,7 +10,9 @@
 
 @interface SecondViewController () <UITableViewDataSource, UITableViewDelegate>
 
+//@property (strong, nonatomic) NSMutableArray *tableCellTextList;
 @property (strong, nonatomic) NSMutableArray *tableCellTextList;
+@property (strong, nonatomic) NSMutableArray *tableCellTextList2;
 
 @end
 

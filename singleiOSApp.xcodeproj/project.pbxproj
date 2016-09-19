@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31B14BE11D8FC31400BBF78E /* addViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B14BE01D8FC31400BBF78E /* addViewController.m */; };
 		DD0442BA1D73BEB000D01BC6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0442B81D73BEB000D01BC6 /* SecondViewController.m */; };
 		DD0442BB1D73BEB000D01BC6 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD0442B91D73BEB000D01BC6 /* SecondViewController.xib */; };
 		DD0442BE1D74036B00D01BC6 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0442BD1D74036B00D01BC6 /* ThirdViewController.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31B14BDF1D8FC31400BBF78E /* addViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addViewController.h; sourceTree = "<group>"; };
+		31B14BE01D8FC31400BBF78E /* addViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addViewController.m; sourceTree = "<group>"; };
 		DD0442B71D73BEB000D01BC6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		DD0442B81D73BEB000D01BC6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		DD0442B91D73BEB000D01BC6 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
@@ -48,6 +51,8 @@
 		DDB803CE1D6E8733000F2E4C = {
 			isa = PBXGroup;
 			children = (
+				31B14BDF1D8FC31400BBF78E /* addViewController.h */,
+				31B14BE01D8FC31400BBF78E /* addViewController.m */,
 				DD0442BC1D74036B00D01BC6 /* ThirdViewController.h */,
 				DD0442BD1D74036B00D01BC6 /* ThirdViewController.m */,
 				DD0442B71D73BEB000D01BC6 /* SecondViewController.h */,
@@ -159,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31B14BE11D8FC31400BBF78E /* addViewController.m in Sources */,
 				DD0442BA1D73BEB000D01BC6 /* SecondViewController.m in Sources */,
 				DD0442BE1D74036B00D01BC6 /* ThirdViewController.m in Sources */,
 				DDB803E21D6E8733000F2E4C /* ViewController.m in Sources */,
