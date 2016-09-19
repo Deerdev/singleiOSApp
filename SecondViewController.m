@@ -28,14 +28,11 @@
     _tableCellTextList = [[NSMutableArray alloc] init];
     for (int i=0; i < 28; ++i) {
         NSString *textStr = [NSString stringWithFormat:@"line %d", i];
-        [_tableCellTextList addObject:textStr];
+        return [_tableCellTextList count];
     }
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 //返回列表行数
 - (NSInteger)tableView:(UITableView *)tableView
