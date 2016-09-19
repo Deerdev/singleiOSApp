@@ -22,15 +22,17 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    [self setTitle:@"Page twotwotwo"];
+    [self setTitle:@"Page twotwotwo22222"];
     
     //初始化数组
     _tableCellTextList = [[NSMutableArray alloc] init];
-    for (int i=0; i < 28; ++i) {
+    for (int i=0; i < 30; ++i) {
         NSString *textStr = [NSString stringWithFormat:@"line %d", i];
         return [_tableCellTextList count];
     }
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    NSString *s1;
+    NSString *s2;
 }
 
 
