@@ -22,15 +22,20 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    [self setTitle:@"Page twotwotwo"];
+    [self setTitle:@"Page twothree"];
     
     //初始化数组
     _tableCellTextList = [[NSMutableArray alloc] init];
-    for (int i=0; i < 28; ++i) {
+    for (int i=0; i < 25; ++i) {
         NSString *textStr = [NSString stringWithFormat:@"line %d", i];
         return [_tableCellTextList count];
     }
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    [_tableCellTextList removeObjectAtIndex:indexPath.row];
+    //删除指定的cell
+    [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath]
+                     withRowAnimation:UITableViewRowAnimationRight];
+
+    
 }
 
 
