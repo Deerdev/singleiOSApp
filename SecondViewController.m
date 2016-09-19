@@ -22,11 +22,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    [self setTitle:@"Page two"];
+    [self setTitle:@"Page twotwotwo"];
     
     //初始化数组
     _tableCellTextList = [[NSMutableArray alloc] init];
-    for (int i=0; i < 25; ++i) {
+    for (int i=0; i < 28; ++i) {
         NSString *textStr = [NSString stringWithFormat:@"line %d", i];
         [_tableCellTextList addObject:textStr];
     }
