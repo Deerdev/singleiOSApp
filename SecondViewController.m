@@ -32,7 +32,11 @@
     }
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     NSString *s1;
+     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+      [tableView deselectRowAtIndexPath:indexPath animated:YES];
     NSString *s2;
+     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+      [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 
