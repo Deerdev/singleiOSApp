@@ -32,19 +32,19 @@
     }
     [_tableCellTextList removeObjectAtIndex:indexPath.row];
     //删除指定的cell
-    [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath]
+    [tableView1 deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath]
                      withRowAnimation:UITableViewRowAnimationRight];
     //删除指定的cell
-    [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath]
+    [tableView1 deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath]
                      withRowAnimation:UITableViewRowAnimationRight];
     //删除指定的cell
-    [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath]
+    [tableView1 deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath]
                      withRowAnimation:UITableViewRowAnimationRight];
     //删除指定的cell
-    [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath]
+    [tableView1 deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath]
                      withRowAnimation:UITableViewRowAnimationRight];
     //删除指定的cell
-    [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath]
+    [tableView1 deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath]
                      withRowAnimation:UITableViewRowAnimationRight];
     //删除指定的cell
     [tableView2 deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath]
